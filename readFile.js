@@ -8,5 +8,5 @@ try {
   const data = fs.readFileSync(filePath);
   console.log(data);
 } catch (error) {
-  console.log("Error: ", error);
+  console.log("error: ", error);
 }
